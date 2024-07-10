@@ -1,0 +1,76 @@
+*{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+/* .......Header and banner design.... */
+
+.banner{
+    margin-top: 70px;
+    background-image: url(../assets/Hero-bg.png);
+}
+
+.banner-content{
+    width: 700px;
+    margin: 26px auto 44px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.banner-des{
+    text-align: center;
+}
+
+.magic-btn{
+    padding: 21px 24px;
+    background-color: rgb(13, 19, 33);
+    color: rgb(255, 255, 255);
+    font-family: "Azeret Mono";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* ..........Main part design............. */
+
+.main-sect1{
+    width: 1140px;
+    margin: 74px auto 0px auto;
+}
+
+.sect1-div{
+    padding: 80px 97px;
+}
+
+.sect1-title{
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.sect1-div1, .sect1-div2, .sect1-div3{
+    padding: 48px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sect1-btn{
+    padding: 12px 20px;
+}
+
+
+
+
+
+
+
+
+
