@@ -6,6 +6,7 @@
 /* .......Header and banner design.... */
 
 .banner{
+    min-width: 1140px;
     margin-top: 70px;
     background-image: url(../assets/Hero-bg.png);
 }
@@ -66,8 +67,99 @@
     padding: 12px 20px;
 }
 
+.main-sect2{
+    width: 1140px;
+    margin: 74px auto 0px auto;
+}
 
+.sec2-title{
+    text-align: center;
+}
 
+.sec2-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sect2-vid{
+    margin-top: 50px;
+}
+
+.sec2-div .video{
+    border-radius: 16px;
+}
+
+.main-sect3{
+    width: 1140px;
+    margin: 74px auto 0px auto;
+}
+
+.sect3-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sect3-title{
+    width: 852px;
+    text-align: center;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.sect3-items{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+
+.item1, .item2, .item3{
+    padding: 40px;
+}
+
+.main-sect4{
+    width: 1140px;
+    margin: 40px auto;
+    background-image: linear-gradient(
+        180deg,
+        rgb(16, 16, 16) -19.5%,
+        rgba(16, 16, 16, 0) 100%
+      ), url(../assets/handshake.jpg);
+    background-size: 100% 100%;
+    border-radius: 16px;
+}
+
+.sect4-div{
+    text-align: center;
+    padding: 20px 25px;
+}
+
+.sect4-form{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.sect4-form .query{
+    width: 548px;
+    height: 40px;
+    padding: 5px 20px;
+    border-radius: 8px;
+    border: none;
+}
+
+.sect4-form .submit-btn{
+    width: 120px;
+    padding: 17px 20px;
+    border: none;
+    border-radius: 8px;
+}
 
 
 
