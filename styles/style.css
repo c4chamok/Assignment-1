@@ -25,20 +25,25 @@
     text-align: center;
 }
 
-.magic-btn{
-    padding: 21px 24px;
-    background-color: rgb(13, 19, 33);
+.magic-btn a{
+    text-decoration: none; 
     color: rgb(255, 255, 255);
     font-family: "Azeret Mono";
     font-size: 16px;
     font-weight: 600;
     line-height: 23px;
     letter-spacing: 0%;
-    text-align: center;
+    text-align: center; 
+}
+
+.magic-btn{
+    padding: 21px 24px;
+    background-color: rgb(13, 19, 33);
     border: none;
     border-radius: 8px;
     cursor: pointer;
 }
+
 
 /* ..........Main part design............. */
 
