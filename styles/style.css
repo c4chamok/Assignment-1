@@ -121,6 +121,10 @@
     padding: 40px;
 }
 
+.sect3-items a{
+    color: rgb(13, 19, 33);
+}
+
 .main-sect4{
     width: 1140px;
     margin: 40px auto;
@@ -163,12 +167,12 @@
 
 
 .footer-sect{
-    margin-top: 30px;
+    width: 1140px;
+    margin: 40px auto;
 }
 
 .footer-div{
-    max-width: 1140px;
-    margin: 0 auto;
+    padding: 20px 25px;
     display: flex;
     justify-content: space-between;
 }
